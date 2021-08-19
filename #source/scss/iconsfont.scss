@@ -1,0 +1,159 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fyw21i') format('truetype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fyw21i') format('woff'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fyw21i##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube {
+  &:before {
+    content: $icon-youtube; 
+  }
+}
+.icon-tumblr {
+  &:before {
+    content: $icon-tumblr; 
+  }
+}
+.icon-google-plus {
+  &:before {
+    content: $icon-google-plus; 
+  }
+}
+.icon-basketball {
+  &:before {
+    content: $icon-basketball; 
+  }
+}
+.icon-map-marker {
+  &:before {
+    content: $icon-map-marker; 
+  }
+}
+.icon-view {
+  &:before {
+    content: $icon-view; 
+  }
+}
+.icon-comments {
+  &:before {
+    content: $icon-comments; 
+  }
+}
+.icon-alarm {
+  &:before {
+    content: $icon-alarm; 
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left; 
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right; 
+  }
+}
+.icon-book-2 {
+  &:before {
+    content: $icon-book-2; 
+  }
+}
+.icon-bullseye {
+  &:before {
+    content: $icon-bullseye; 
+  }
+}
+.icon-computer-ok {
+  &:before {
+    content: $icon-computer-ok; 
+  }
+}
+.icon-equalizer {
+  &:before {
+    content: $icon-equalizer; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-image {
+  &:before {
+    content: $icon-image; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-line-graph {
+  &:before {
+    content: $icon-line-graph; 
+  }
+}
+.icon-picture {
+  &:before {
+    content: $icon-picture; 
+  }
+}
+.icon-pinterest {
+  &:before {
+    content: $icon-pinterest; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-shopping-cart {
+  &:before {
+    content: $icon-shopping-cart; 
+  }
+}
+.icon-speech-4 {
+  &:before {
+    content: $icon-speech-4; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-users {
+  &:before {
+    content: $icon-users; 
+  }
+}
+
